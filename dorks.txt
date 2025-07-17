@@ -1,0 +1,1008 @@
+"ftp"
+"admin login"
+ext:bak
+inurl:database ext:env
+ext:rar
+inurl:dashboard "DB_PASSWORD"
+inurl:debug "admin login"
+ext:gz
+inurl:staging ext:log
+"ssh"
+inurl:debug ext:log
+inurl:confidential "access_token"
+"api_key"
+ext:json
+inurl:conf ext:bak
+ext:sql
+"aws_access_key_id"
+"intitle:index.of"
+"inurl:admin"
+ext:env
+inurl:staging ext:gz
+inurl:api "token"
+ext:log
+inurl:api ext:json
+inurl:new ext:rar
+inurl:v2 ext:xml
+ext:aspx
+"token"
+inurl:private "secret"
+"filetype:doc password"
+inurl:dump ext:log
+inurl:dashboard ext:conf
+"mysql dump"
+inurl:v3 "api_key"
+inurl:debug ext:sql
+inurl:dashboard ext:xml
+ext:tar
+ext:conf
+"filetype:log"
+inurl:dev ext:zip
+ext:jsp
+ext:config
+ext:yaml
+inurl:private ext:env
+inurl:dashboard "Authorization"
+ext:ini
+ext:php
+"password"
+"access_token"
+inurl:v3 ext:conf
+"filetype:pdf confidential"
+inurl:login "Authorization"
+inurl:old ext:gz
+ext:xml
+inurl:backup ext:json
+inurl:private ext:log
+inurl:api ext:sql
+inurl:staging "access_token"
+ext:asp
+ext:yml
+inurl:dump ext:asp
+"inurl:admin"
+inurl:private "admin login"
+inurl:old "password"
+"filetype:xls password"
+inurl:api "intitle:index.of"
+ext:txt
+inurl:dump "inurl:wp-content"
+inurl:dump "inurl:dashboard"
+inurl:private "DB_PASSWORD"
+inurl:debug "inurl:admin"
+inurl:dev ext:zip
+inurl:register ext:json
+inurl:private ext:conf
+inurl:internal "ftp"
+ext:bak
+inurl:dump ext:xml
+inurl:old ext:bak
+"credentials"
+ext:env
+inurl:reset "token"
+inurl:signup ext:xml
+inurl:login ext:log
+inurl:staging ext:conf
+inurl:dashboard ext:env
+inurl:admin "secret"
+"Authorization"
+"confidential"
+inurl:v1 ext:bak
+ext:zip
+inurl:internal ext:conf
+"filetype:txt password"
+inurl:dashboard ext:sql
+"DB_PASSWORD"
+ext:json
+inurl:server-status
+inurl:reset ext:txt
+inurl:dump ext:php
+inurl:login "DB_PASSWORD"
+inurl:internal ext:xml
+inurl:admin intitle:"login"
+inurl:"php?file=" ext:php
+intitle:"Index of" ".env"
+inurl:/env ext:txt
+inurl:"/config.php~"
+ext:conf intext:"password"
+intitle:"index of" "config.json"
+inurl:"/config.bak"
+inurl:"/config.old"
+ext:ini intext:"db_user"
+intitle:"Index of" ".git"
+inurl:"/.env" AND "DB_PASSWORD"
+inurl:"/.git/config"
+ext:sql "insert into"
+ext:sql "password"
+ext:sql "dump"
+inurl:"db.sql"
+inurl:"backup.sql"
+inurl:"sitebackup.sql"
+filetype:bak inurl:"backup"
+inurl:"/backup.bak"
+inurl:"/admin/"
+inurl:"/admin/login.php"
+inurl:"/admin/index.php"
+inurl:"/cpanel"
+inurl:"/webadmin"
+inurl:"/administrator"
+intitle:"index of" "backup"
+inurl:"/log.txt"
+inurl:"/error.log"
+filetype:log
+inurl:"logfile"
+filetype:xml inurl:"config"
+filetype:conf intext:"user"
+filetype:conf intext:"admin"
+inurl:"server-status"
+inurl:"phpinfo.php"
+intitle:"phpinfo()" "PHP Version"
+ext:inc intext:mysql_connect
+filetype:inc intext:"mysql_connect"
+filetype:inc intext:"DB_USER"
+filetype:inc intext:"DB_PASSWORD"
+intitle:"Index of" ".idea"
+intitle:"Index of" ".vscode"
+filetype:env DB_PASSWORD
+filetype:env MAIL_HOST
+intitle:"index of" ".svn"
+intitle:"index of" ".DS_Store"
+intitle:"index of" ".bash_history"
+inurl:.bash_history
+inurl:config.php intext:mysql
+filetype:config.php intext:DB_HOST
+ext:env inurl:.env
+inurl:/.htpasswd
+filetype:htpasswd
+filetype:htaccess
+inurl:/htpasswd
+inurl:/htaccess
+inurl:/passwd
+filetype:passwd
+filetype:sql "password"
+filetype:sql "dump"
+filetype:bak intext:password
+filetype:bak intext:admin
+filetype:bak intext:login
+filetype:zip inurl:backup
+filetype:zip inurl:site
+filetype:rar inurl:backup
+filetype:rar inurl:site
+filetype:gz inurl:backup
+filetype:tar.gz inurl:backup
+filetype:7z inurl:backup
+filetype:json inurl:config
+filetype:json inurl:credentials
+filetype:json inurl:firebase
+filetype:json inurl:service-account
+filetype:log inurl:debug
+filetype:log inurl:error
+filetype:log inurl:log
+filetype:sql intext:"password"
+filetype:sql intext:"insert"
+filetype:xls intext:"password"
+filetype:xlsx intext:"email"
+filetype:csv intext:"password"
+filetype:csv intext:"username"
+filetype:csv intext:"email"
+filetype:txt intext:"username"
+filetype:txt intext:"password"
+filetype:doc intext:"confidential"
+filetype:pdf intext:"confidential"
+filetype:pdf intext:"internal use only"
+filetype:docx intext:"internal use only"
+filetype:docx intext:"confidential"
+filetype:ppt intext:"confidential"
+filetype:pptx intext:"confidential"
+filetype:msg intext:"password"
+filetype:eml intext:"username"
+filetype:eml intext:"password"
+filetype:vcf intext:"email"
+filetype:xls intext:"login"
+filetype:xlsx intext:"login"
+filetype:sql intext:"credit card"
+filetype:sql intext:"cvv"
+filetype:xls intext:"cvv"
+filetype:xlsx intext:"credit card"
+inurl:"login.jsp"
+inurl:"signin.jsp"
+inurl:"/admin.jsp"
+inurl:"login.asp"
+inurl:"admin.asp"
+filetype:config intext:"db_password"
+filetype:xml intext:"authentication"
+filetype:xml intext:"authorization"
+filetype:xml intext:"credential"
+filetype:xml intext:"db_password"
+filetype:json intext:"apikey"
+filetype:json intext:"secret"
+filetype:json intext:"token"
+filetype:json intext:"access_token"
+filetype:json intext:"private_key"
+filetype:json intext:"client_secret"
+filetype:json intext:"db_user"
+filetype:ini intext:"db_password"
+filetype:ini intext:"secret"
+filetype:ini intext:"apikey"
+filetype:env intext:"DB_USERNAME"
+filetype:env intext:"DB_PASSWORD"
+filetype:env intext:"MAIL_PASSWORD"
+filetype:env intext:"MAIL_USERNAME"
+filetype:env intext:"APP_SECRET"
+filetype:env intext:"APP_KEY"
+filetype:env intext:"SECRET_KEY"
+filetype:env intext:"API_KEY"
+filetype:env intext:"AWS_SECRET_ACCESS_KEY"
+filetype:env intext:"AWS_ACCESS_KEY_ID"
+filetype:env intext:"MAILGUN_SECRET"
+filetype:env intext:"NEXMO_SECRET"
+filetype:env intext:"STRIPE_KEY"
+filetype:env intext:"STRIPE_SECRET"
+filetype:env intext:"PAYPAL_SECRET"
+filetype:env intext:"DB_HOST"
+filetype:env intext:"DB_PORT"
+filetype:env intext:"JWT_SECRET"
+filetype:env intext:"SMTP_PASSWORD"
+filetype:env intext:"SMTP_USERNAME"
+filetype:env intext:"REDIS_PASSWORD"
+filetype:env intext:"REDIS_HOST"
+filetype:env intext:"REDIS_PORT"
+filetype:env intext:"MAIL_DRIVER"
+filetype:env intext:"SESSION_DRIVER"
+filetype:env intext:"CACHE_DRIVER"
+filetype:env intext:"QUEUE_DRIVER"
+filetype:env intext:"APP_ENV"
+filetype:env intext:"APP_DEBUG"
+filetype:env intext:"APP_URL"
+filetype:env intext:"APP_NAME"
+filetype:env intext:"DB_CONNECTION"
+filetype:log intext:"Exception"
+filetype:log intext:"Traceback"
+filetype:log intext:"Stack trace"
+filetype:log intext:"Fatal error"
+filetype:log intext:"error"
+filetype:log intext:"warning"
+filetype:log intext:"exception"
+filetype:log intext:"critical"
+filetype:log intext:"debug"
+filetype:log intext:"notice"
+filetype:log intext:"alert"
+filetype:log intext:"emergency"
+filetype:bak inurl:"config"
+filetype:bak inurl:"database"
+filetype:bak inurl:"db"
+filetype:bak inurl:"admin"
+filetype:bak inurl:"login"
+filetype:sql intext:"DROP TABLE"
+filetype:sql intext:"CREATE TABLE"
+filetype:sql intext:"UPDATE"
+filetype:sql intext:"SELECT"
+filetype:sql intext:"DELETE FROM"
+filetype:sql intext:"INSERT INTO"
+filetype:sql intext:"VALUES"
+filetype:sql intext:"SET"
+filetype:sql intext:"WHERE"
+filetype:sql intext:"FROM"
+filetype:sql intext:"AND"
+filetype:sql intext:"OR"
+filetype:sql intext:"ORDER BY"
+filetype:sql intext:"GROUP BY"
+filetype:sql intext:"HAVING"
+filetype:sql intext:"LIMIT"
+filetype:sql intext:"JOIN"
+filetype:sql intext:"UNION"
+filetype:sql intext:"DISTINCT"
+filetype:sql intext:"LIKE"
+filetype:sql intext:"BETWEEN"
+filetype:sql intext:"IS NULL"
+filetype:sql intext:"IS NOT NULL"
+filetype:sql intext:"ASC"
+filetype:sql intext:"DESC"
+filetype:sql intext:"password"
+filetype:sql intext:"email"
+filetype:sql intext:"credit card"
+filetype:sql intext:"cvv"
+filetype:sql intext:"ssn"
+filetype:sql intext:"dob"
+intitle:"index of" "sitemap.xml"
+intitle:"index of" ".env"
+intitle:"index of" "db.sql"
+intitle:"index of" "backup.sql"
+intitle:"index of" "config.json"
+intitle:"index of" "credentials"
+intitle:"index of" "ftpconfig"
+intitle:"index of" "secrets"
+intitle:"index of" "phpinfo"
+intitle:"index of" "config.bak"
+intitle:"index of" "config.old"
+intitle:"index of" "database.sql"
+intitle:"index of" "dump.sql"
+intitle:"index of" "db_dump"
+intitle:"index of" "passwords"
+intitle:"index of" "users.csv"
+intitle:"index of" "accounts.xls"
+intitle:"index of" "admin_panel"
+intitle:"index of" "auth.json"
+intitle:"index of" "tokens"
+intitle:"index of" "access.log"
+intitle:"index of" "error.log"
+intitle:"index of" "debug.log"
+intitle:"index of" "logfile"
+intitle:"index of" "vhosts"
+intitle:"index of" "phpmyadmin"
+intitle:"index of" "uploads"
+intitle:"index of" "public_html"
+intitle:"index of" "htdocs"
+intitle:"index of" "wp-content"
+intitle:"index of" ".git"
+intitle:"index of" ".svn"
+intitle:"index of" ".htpasswd"
+intitle:"index of" ".htaccess"
+intitle:"index of" "web.config"
+intitle:"index of" "appsettings.json"
+intitle:"index of" "docker-compose.yml"
+intitle:"index of" "dockerfile"
+intitle:"index of" "composer.json"
+intitle:"index of" "package.json"
+intitle:"index of" "bower.json"
+intitle:"index of" ".npmrc"
+intitle:"index of" ".yarnrc"
+intitle:"index of" ".bash_history"
+intitle:"index of" ".zsh_history"
+intitle:"index of" "bashrc"
+intitle:"index of" "profile"
+intitle:"index of" "passwd"
+intitle:"index of" "shadow"
+intitle:"index of" "crontab"
+intitle:"index of" "ssh"
+intitle:"index of" "authorized_keys"
+intitle:"index of" "id_rsa"
+intitle:"index of" "id_dsa"
+intitle:"index of" "pem"
+intitle:"index of" "ppk"
+intitle:"index of" "sql.gz"
+intitle:"index of" "sql.zip"
+intitle:"index of" "db.gz"
+intitle:"index of" "db.zip"
+intitle:"index of" "wordpress"
+intitle:"index of" "joomla"
+intitle:"index of" "drupal"
+intitle:"index of" "magento"
+intitle:"index of" "laravel"
+intitle:"index of" "symfony"
+intitle:"index of" "cakephp"
+intitle:"index of" "codeigniter"
+intitle:"index of" "node_modules"
+intitle:"index of" "vendor"
+intitle:"index of" "config.yml"
+intitle:"index of" "database.yml"
+intitle:"index of" "settings.py"
+intitle:"index of" "__pycache__"
+intitle:"index of" ".env.development"
+intitle:"index of" ".env.production"
+intitle:"index of" "wp-config.php"
+intitle:"index of" "env.sample"
+intitle:"index of" "test.env"
+intitle:"index of" "test.db"
+intitle:"index of" "dev.db"
+intitle:"index of" "prod.db"
+intitle:"index of" ".DS_Store"
+intitle:"index of" "Thumbs.db"
+intitle:"index of" "desktop.ini"
+intitle:"index of" "archive"
+intitle:"index of" "backup"
+intitle:"index of" "dump"
+intitle:"index of" "export"
+intitle:"index of" "import"
+intitle:"index of" "cache"
+intitle:"index of" "temp"
+intitle:"index of" "tmp"
+intitle:"index of" "old"
+intitle:"index of" "logs"
+intitle:"index of" "report"
+intitle:"index of" "scan"
+intitle:"index of" "error"
+intitle:"index of" "scan report"
+intitle:"index of" "debug"
+intitle:"index of" "trace"
+intitle:"index of" "analytics"
+intitle:"index of" "monitoring"
+intitle:"index of" "status"
+intitle:"index of" "admin"
+intitle:"index of" "dashboard"
+intitle:"index of" "syslog"
+intitle:"index of" "var"
+intitle:"index of" "etc"
+intitle:"index of" "home"
+intitle:"index of" "proc"
+intitle:"index of" "conf"
+intitle:"index of" "lib"
+intitle:"index of" "opt"
+intitle:"index of" "boot"
+intitle:"index of" "run"
+intitle:"index of" "media"
+intitle:"index of" "mnt"
+intitle:"index of" "srv"
+intitle:"index of" "tmpfs"
+intitle:"index of" "swap"
+intitle:"index of" "bin"
+intitle:"index of" "sbin"
+intitle:"index of" "log"
+intitle:"index of" "cgi-bin"
+intitle:"index of" "cgi"
+intitle:"index of" "cgi-sys"
+intitle:"index of" "include"
+intitle:"index of" "libexec"
+intitle:"index of" "man"
+intitle:"index of" "locale"
+intitle:"index of" "varlog"
+intitle:"index of" "stats"
+intitle:"index of" "sessions"
+intitle:"index of" "tokens.json"
+intitle:"index of" "apikeys"
+intitle:"index of" "secrets.env"
+intitle:"index of" "env.local"
+intitle:"index of" "env.backup"
+intitle:"index of" "env.test"
+intitle:"index of" "env.old"
+intitle:"index of" "env.bak"
+intitle:"index of" "db.sqlite3"
+intitle:"index of" "login.php"
+intitle:"index of" "signin.php"
+intitle:"index of" "register.php"
+intitle:"index of" "signup.php"
+intitle:"index of" "login.jsp"
+intitle:"index of" "login.asp"
+intitle:"index of" "admin.asp"
+intitle:"index of" "admin.jsp"
+intitle:"index of" "admin.html"
+intitle:"index of" "admin.htm"
+intitle:"index of" "auth.php"
+intitle:"index of" "user.php"
+intitle:"index of" "panel"
+intitle:"index of" "secure"
+intitle:"index of" "cms"
+intitle:"index of" "manage"
+intitle:"index of" "console"
+intitle:"index of" "terminal"
+intitle:"index of" "shell"
+intitle:"index of" "upload"
+intitle:"index of" "download"
+intitle:"index of" "files"
+intitle:"index of" "documents"
+intitle:"index of" "docs"
+intitle:"index of" "pdf"
+intitle:"index of" "ppt"
+intitle:"index of" "xls"
+intitle:"index of" "csv"
+intitle:"index of" "sql"
+intitle:"index of" "bak"
+intitle:"index of" "rar"
+intitle:"index of" "7z"
+intitle:"index of" "tar"
+intitle:"index of" "gz"
+intitle:"index of" "tgz"
+intitle:"index of" "zip"
+intitle:"index of" "backup.tar"
+intitle:"index of" "backup.zip"
+intitle:"index of" "backup.7z"
+intitle:"index of" "backup.gz"
+intitle:"index of" "config.tar"
+intitle:"index of" "config.zip"
+intitle:"index of" "config.gz"
+intitle:"index of" "settings.tar"
+intitle:"index of" "settings.zip"
+intitle:"index of" "settings.gz"
+intitle:"index of" "secrets.zip"
+intitle:"index of" "secrets.tar"
+intitle:"index of" "secrets.7z"
+intitle:"index of" "token.txt"
+intitle:"index of" "api_key.txt"
+intitle:"index of" "apikey.json"
+intitle:"index of" "credentials.txt"
+intitle:"index of" "credentials.json"
+intitle:"index of" "auth.json"
+intitle:"index of" "oauth.json"
+intitle:"index of" "oauth2.json"
+intitle:"index of" "jwt"
+intitle:"index of" "jwt.token"
+intitle:"index of" "private.pem"
+intitle:"index of" "id_rsa"
+intitle:"index of" "id_dsa"
+intitle:"index of" "id_ecdsa"
+intitle:"index of" "id_ed25519"
+intitle:"index of" ".ssh"
+intitle:"index of" "pgpass"
+intitle:"index of" "pg_service.conf"
+intitle:"index of" "docker-compose.yml"
+intitle:"index of" "dockerfile"
+intitle:"index of" ".env"
+intitle:"index of" ".bash_history"
+intitle:"index of" ".zsh_history"
+intitle:"index of" ".mysql_history"
+intitle:"index of" ".psql_history"
+intitle:"index of" ".sqlite_history"
+intitle:"index of" ".history"
+intitle:"index of" ".npmrc"
+intitle:"index of" ".yarnrc"
+intitle:"index of" "npm-debug.log"
+intitle:"index of" "yarn-debug.log"
+intitle:"index of" ".git"
+intitle:"index of" ".gitconfig"
+intitle:"index of" ".git-credentials"
+intitle:"index of" ".gitignore"
+intitle:"index of" ".hg"
+intitle:"index of" ".svn"
+intitle:"index of" ".bzr"
+intitle:"index of" ".cvs"
+intitle:"index of" ".DS_Store"
+intitle:"index of" "desktop.ini"
+intitle:"index of" "thumbs.db"
+intitle:"index of" "~"
+intitle:"index of" "passwords"
+intitle:"index of" "pass.txt"
+intitle:"index of" "passwd"
+intitle:"index of" "shadow"
+intitle:"index of" "credentials"
+intitle:"index of" "creds"
+intitle:"index of" "key.pem"
+intitle:"index of" "cert.pem"
+intitle:"index of" "server.key"
+intitle:"index of" "server.crt"
+intitle:"index of" "client.key"
+intitle:"index of" "client.crt"
+intitle:"index of" "mysql.cnf"
+intitle:"index of" "my.cnf"
+intitle:"index of" "php.ini"
+intitle:"index of" "phpinfo"
+intitle:"index of" "wp-config.php"
+intitle:"index of" "config.inc.php"
+intitle:"index of" "config.php.bak"
+intitle:"index of" "db_config.php"
+intitle:"index of" "database.yml"
+intitle:"index of" "settings.py"
+intitle:"index of" "secrets.py"
+intitle:"index of" "config.js"
+intitle:"index of" "config.json"
+intitle:"index of" "env.js"
+intitle:"index of" "env.json"
+intitle:"index of" "prod.js"
+intitle:"index of" "prod.json"
+intitle:"index of" "stage.js"
+intitle:"index of" "stage.json"
+intitle:"index of" "dev.js"
+intitle:"index of" "dev.json"
+intitle:"index of" "test.js"
+intitle:"index of" "test.json"
+intitle:"index of" "keys.js"
+intitle:"index of" "keys.json"
+intitle:"index of" "secrets.js"
+intitle:"index of" "secrets.json"
+intitle:"index of" "tokens.js"
+intitle:"index of" "tokens.json"
+intitle:"index of" "logs"
+intitle:"index of" "logfile"
+intitle:"index of" "access.log"
+intitle:"index of" "error.log"
+intitle:"index of" "debug.log"
+intitle:"index of" "audit.log"
+intitle:"index of" "event.log"
+intitle:"index of" "syslog.log"
+intitle:"index of" "trace.log"
+intitle:"index of" "monitor.log"
+intitle:"index of" "crash.log"
+intitle:"index of" "dump.log"
+intitle:"index of" "system.log"
+intitle:"index of" "console.log"
+intitle:"index of" "install.log"
+intitle:"index of" "firewall.log"
+intitle:"index of" "nginx.conf"
+intitle:"index of" "httpd.conf"
+intitle:"index of" "apache2.conf"
+intitle:"index of" "lighttpd.conf"
+intitle:"index of" "web.config"
+intitle:"index of" "robots.txt"
+intitle:"index of" ".htaccess"
+intitle:"index of" ".htpasswd"
+intitle:"index of" "config/database.yml"
+intitle:"index of" "config/secrets.yml"
+intitle:"index of" "config/environments/production.rb"
+intitle:"index of" "config/environments/development.rb"
+intitle:"index of" "config/settings.yml"
+intitle:"index of" "secrets/settings.yml"
+intitle:"index of" "database.ini"
+intitle:"index of" "secrets.ini"
+intitle:"index of" "production.ini"
+intitle:"index of" "development.ini"
+intitle:"index of" ".bashrc"
+intitle:"index of" ".bash_profile"
+intitle:"index of" ".zshrc"
+intitle:"index of" ".profile"
+intitle:"index of" "hosts"
+intitle:"index of" "sudoers"
+intitle:"index of" "passwd.bak"
+intitle:"index of" "shadow.bak"
+intitle:"index of" "shadow.old"
+intitle:"index of" "passwd.old"
+intitle:"index of" "phpMyAdmin"
+intitle:"index of" "adminer"
+intitle:"index of" "admin.php"
+intitle:"index of" "login.php"
+intitle:"index of" "signin.php"
+intitle:"index of" "dashboard.php"
+intitle:"index of" "controlpanel"
+intitle:"index of" "cpanel"
+intitle:"index of" "vhosts.conf"
+intitle:"index of" "named.conf"
+intitle:"index of" "dns.conf"
+intitle:"index of" "iptables.conf"
+intitle:"index of" "resolv.conf"
+intitle:"index of" "ifcfg-eth0"
+intitle:"index of" "network-config"
+intitle:"index of" "interfaces"
+intitle:"index of" "ssl.conf"
+intitle:"index of" "mod_ssl.conf"
+intitle:"index of" "default-ssl.conf"
+intitle:"index of" "letsencrypt"
+intitle:"index of" "certbot"
+intitle:"index of" "nginx/sites-enabled"
+intitle:"index of" "nginx/sites-available"
+intitle:"index of" "sites-enabled"
+intitle:"index of" "sites-available"
+intitle:"index of" "nginx.conf.bak"
+intitle:"index of" "nginx.conf.old"
+intitle:"index of" "httpd.conf.bak"
+intitle:"index of" "httpd.conf.old"
+intitle:"index of" ".dockerenv"
+intitle:"index of" "docker-entrypoint.sh"
+intitle:"index of" "docker-compose.override.yml"
+intitle:"index of" "docker-compose.prod.yml"
+intitle:"index of" "docker-compose.dev.yml"
+intitle:"index of" "docker-compose.test.yml"
+intitle:"index of" "Dockerfile.bak"
+intitle:"index of" "Dockerfile.old"
+intitle:"index of" "Makefile"
+intitle:"index of" "Gruntfile.js"
+intitle:"index of" "Gulpfile.js"
+intitle:"index of" "package.json"
+intitle:"index of" "package-lock.json"
+intitle:"index of" "yarn.lock"
+intitle:"index of" "composer.json"
+intitle:"index of" "composer.lock"
+intitle:"index of" "Pipfile"
+intitle:"index of" "Pipfile.lock"
+intitle:"index of" "requirements.txt"
+intitle:"index of" "environment.yml"
+intitle:"index of" "pyproject.toml"
+intitle:"index of" "poetry.lock"
+intitle:"index of" "Gemfile"
+intitle:"index of" "Gemfile.lock"
+intitle:"index of" "build.gradle"
+intitle:"index of" "settings.gradle"
+intitle:"index of" "pom.xml"
+intitle:"index of" "application.properties"
+intitle:"index of" "application.yml"
+intitle:"index of" "web.xml"
+intitle:"index of" "struts.xml"
+intitle:"index of" "hibernate.cfg.xml"
+intitle:"index of" "server.xml"
+intitle:"index of" "context.xml"
+intitle:"index of" "log4j.properties"
+intitle:"index of" "log4j.xml"
+intitle:"index of" "logback.xml"
+intitle:"index of" "config.groovy"
+intitle:"index of" "init.groovy"
+intitle:"index of" "application.conf"
+intitle:"index of" "prod.conf"
+intitle:"index of" "dev.conf"
+intitle:"index of" "conf.d"
+intitle:"index of" "local.conf"
+intitle:"index of" "user.conf"
+intitle:"index of" "ldap.conf"
+intitle:"index of" "krb5.conf"
+intitle:"index of" "smb.conf"
+intitle:"index of" "snmp.conf"
+intitle:"index of" "proftpd.conf"
+intitle:"index of" "vsftpd.conf"
+intitle:"index of" "sshd_config"
+intitle:"index of" "ssh_config"
+intitle:"index of" "id_rsa"
+intitle:"index of" "id_rsa.pub"
+intitle:"index of" ".ssh"
+intitle:"index of" ".gnupg"
+intitle:"index of" ".aws/credentials"
+intitle:"index of" ".azure"
+intitle:"index of" ".kube/config"
+intitle:"index of" ".docker/config.json"
+intitle:"index of" ".npmrc"
+intitle:"index of" ".pypirc"
+intitle:"index of" ".netrc"
+intitle:"index of" ".my.cnf"
+intitle:"index of" ".pgpass"
+intitle:"index of" ".bash_history"
+intitle:"index of" ".zsh_history"
+intitle:"index of" ".sqlite_history"
+intitle:"index of" ".mysql_history"
+intitle:"index of" ".psql_history"
+intitle:"index of" ".rediscli_history"
+intitle:"index of" "access.log"
+intitle:"index of" "error.log"
+intitle:"index of" "*.log"
+intitle:"index of" "*.bak"
+intitle:"index of" "*.old"
+intitle:"index of" "*~"
+intitle:"index of" "backup"
+intitle:"index of" "backups"
+intitle:"index of" "dump.sql"
+intitle:"index of" "dump.rdb"
+intitle:"index of" "dump.bak"
+intitle:"index of" "db.sql"
+intitle:"index of" "database.db"
+intitle:"index of" "database.sqlite"
+intitle:"index of" "*.sqlite3"
+intitle:"index of" "*.db"
+intitle:"index of" "mysql/"
+intitle:"index of" "postgres/"
+intitle:"index of" "redis/"
+intitle:"index of" "mongo/"
+intitle:"index of" "influx/"
+intitle:"index of" "cassandra/"
+intitle:"index of" "elasticsearch/"
+intitle:"index of" "kibana/"
+intitle:"index of" "grafana/"
+intitle:"index of" "jenkins/"
+intitle:"index of" "gitlab/"
+intitle:"index of" "bitbucket/"
+intitle:"index of" "svn/"
+intitle:"index of" "hg/"
+intitle:"index of" ".git"
+intitle:"index of" ".svn"
+intitle:"index of" ".hg"
+intitle:"index of" ".bzr"
+intitle:"index of" "CVS"
+intitle:"index of" ".DS_Store"
+intitle:"index of" "Thumbs.db"
+intitle:"index of" "desktop.ini"
+intitle:"index of" ".vscode"
+intitle:"index of" ".idea"
+intitle:"index of" ".project"
+intitle:"index of" ".classpath"
+intitle:"index of" ".settings"
+intitle:"index of" ".metadata"
+intitle:"index of" "node_modules"
+intitle:"index of" "vendor"
+intitle:"index of" "venv"
+intitle:"index of" "__pycache__"
+intitle:"index of" ".cache"
+intitle:"index of" "target"
+intitle:"index of" "bin"
+intitle:"index of" "obj"
+intitle:"index of" "out"
+intitle:"index of" "build"
+intitle:"index of" "dist"
+intitle:"index of" "*.apk"
+intitle:"index of" "*.ipa"
+intitle:"index of" "*.exe"
+intitle:"index of" "*.msi"
+intitle:"index of" "*.dll"
+intitle:"index of" "*.deb"
+intitle:"index of" "*.rpm"
+intitle:"index of" "*.tar.gz"
+intitle:"index of" "*.tgz"
+intitle:"index of" "*.zip"
+intitle:"index of" "*.rar"
+intitle:"index of" "*.7z"
+intitle:"index of" "*.iso"
+intitle:"index of" "*.img"
+intitle:"index of" "*.bak.gz"
+intitle:"index of" "*.sql.gz"
+intitle:"index of" "config.php~"
+intitle:"index of" "wp-config.php~"
+intitle:"index of" ".env~"
+intitle:"index of" "settings.py~"
+intitle:"index of" "local_settings.py~"
+intitle:"index of" "application.properties~"
+intitle:"index of" "*.pem"
+intitle:"index of" "*.crt"
+intitle:"index of" "*.key"
+intitle:"index of" "key.pem"
+intitle:"index of" "cert.pem"
+intitle:"index of" "server.key"
+intitle:"index of" "server.crt"
+ext:log
+ext:sql
+ext:env
+ext:ini
+ext:bak
+ext:old
+ext:swp
+ext:git
+ext:svn
+ext:db
+ext:cfg
+ext:conf
+ext:xml
+ext:json
+ext:yaml
+ext:yml
+ext:passwd
+ext:psql
+ext:pgpass
+ext:sql.gz
+inurl:phpinfo.php
+inurl:env
+inurl:.env
+inurl:wp-config
+inurl:config
+inurl:credentials
+inurl:login
+inurl:admin
+inurl:dashboard
+inurl:signup
+inurl:register
+inurl:reset
+intitle:"index of /admin"
+intitle:"index of /uploads"
+intitle:"index of /config"
+intitle:"index of /backup"
+intitle:"index of /database"
+intitle:"index of /private"
+intitle:"index of /confidential"
+intitle:"index of /.git"
+intitle:"index of /.env"
+intitle:"index of /wp-content"
+intitle:"index of /logs"
+intitle:"index of /dev"
+intitle:"index of /staging"
+intitle:"index of /test"
+intitle:"index of /debug"
+intitle:"Dashboard"
+intitle:"Welcome to nginx!"
+intitle:"Apache2 Ubuntu Default Page"
+"root:x:" filetype:pwd
+filetype:sql "insert into"
+filetype:sql "password"
+filetype:env "APP_KEY"
+filetype:json "api_key"
+filetype:xml "password"
+filetype:log "exception"
+filetype:conf "passwd"
+filetype:txt "password"
+"Authorization: Bearer"
+"Set-Cookie: session"
+"API_KEY="
+"access_token="
+"private_key"
+"BEGIN RSA PRIVATE KEY"
+"password="
+"user_password="
+"database_password"
+"credentials.json"
+"config.json"
+"client_secret"
+"firebaseio"
+"/v1/api"
+"/v2/api"
+"/api/v1"
+"/api/v2"
+"/graphql"
+"GraphQL Playground"
+"swagger-ui"
+"swagger.json"
+"openapi.json"
+inurl:callback
+inurl:redirect
+inurl:returnurl
+inurl:src=site
+inurl:continue=
+inurl:next=
+inurl:data:text/html
+inurl:debug
+inurl:error
+inurl:exception
+inurl:test
+inurl:staging
+inurl:dev
+inurl:example
+inurl:sample
+inurl:temp
+inurl:demo
+ext:php intitle:"phpinfo"
+ext:log intext:"Warning:"
+inurl:admin/login
+inurl:admin/dashboard
+inurl:cpanel
+inurl:webmail
+inurl:upload
+inurl:file_upload
+inurl:dashboard.jsp
+inurl:debug=true
+inurl:php?id=
+inurl:pageid=
+inurl:catid=
+inurl:itemid=
+inurl:productid=
+inurl:shop.php?pid=
+inurl:news.php?id=
+inurl:view.php?id=
+inurl:article.php?id=
+inurl:event.php?id=
+inurl:content.php?id=
+inurl:read.php?id=
+inurl:gallery.php?id=
+inurl:index.php?id=
+inurl:details.php?id=
+inurl:info.php?id=
+inurl:search.php?q=
+inurl:redirect.php?url=
+inurl:forward.php?to=
+inurl:download.php?file=
+inurl:include.php?page=
+inurl:load.php?file=
+inurl:lang.php?lang=
+inurl:nav.php?menu=
+inurl:config.php
+inurl:.aws/credentials
+inurl:access.log
+inurl:error.log
+intitle:"Welcome to OpenResty"
+intitle:"Welcome to Jetty"
+intitle:"Welcome to Flask"
+intitle:"Welcome to Spring Boot"
+intitle:"Welcome to Express"
+intitle:"Index of /secrets"
+intitle:"Index of /keys"
+intitle:"Index of /src"
+intitle:"Index of /code"
+intitle:"Index of /htdocs"
+intitle:"Index of /cgi-bin"
+intitle:"Index of /backup"
+intitle:"Index of /uploads"
+intitle:"GitHub - "
+intitle:"Bitbucket - "
+intitle:"GitLab - "
+intitle:"Swagger UI"
+intitle:"API documentation"
+inurl:swagger
+inurl:api-docs
+inurl:openapi.json
+inurl:swagger.json
+inurl:.env.backup
+inurl:.env.old
+inurl:.env.save
+inurl:.env~
+inurl:.env.bak
+inurl:wp-json
+inurl:wp-content/uploads/
+inurl:wp-admin/setup-config.php
+inurl:wp-admin/install.php
+inurl:readme.html
+inurl:license.txt
+inurl:phpmyadmin
+intitle:"phpMyAdmin"
+intitle:"phpPgAdmin"
+intitle:"Mongo Express"
+intitle:"Adminer"
+inurl:adminer.php
+inurl:dbadmin
+inurl:mysqladmin
+inurl:phpinfo.php
+inurl:php.ini
+inurl:hosts
+filetype:bak
+filetype:old
+filetype:log
+filetype:config
+filetype:env
+filetype:sql
+filetype:json
+filetype:yaml
+filetype:yml
+filetype:txt intext:password
+filetype:xml intext:password
+filetype:conf intext:pass
+filetype:ini intext:pass
+filetype:ps1 intext:password
+filetype:sh intext:password
+"X-Amz-Security-Token"
+"AKIA" AND "AWS"
+"sf_username" AND "sf_password"
