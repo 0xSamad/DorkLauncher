@@ -1006,3 +1006,1168 @@ filetype:sh intext:password
 "X-Amz-Security-Token"
 "AKIA" AND "AWS"
 "sf_username" AND "sf_password"
+inurl:admin  
+intitle:login  
+inurl:admin intitle:admin  
+intext:admin  
+intitle:/admin  
+inurl:adminpanel  
+inurl:dashboard  
+inurl:cpanel  
+ext:log | ext:txt | ext:env | ext:json | ext:sql | ext:yaml  
+ext:conf | ext:ini | ext:xml | ext:php intitle:"index of"  
+intitle:"index of" ".env"  
+intitle:"index of" ".git"  
+intitle:"index of" "config.php"  
+intitle:"index of" "db_backup"  
+intitle:"index of" "database.sql"  
+intitle:"index of" "backup"  
+intitle:"index of" "credentials"  
+intitle:"index of" "uploads"  
+intitle:"index of" "dump.sql"  
+intitle:"index of" "access.log"  
+ext:sql | ext:db | ext:bak  
+ext:log  
+ext:env  
+ext:txt  
+ext:xml  
+ext:conf  
+ext:ini  
+ext:json  
+ext:yaml  
+ext:bak  
+inurl:login  
+inurl:signin  
+inurl:auth  
+inurl:register  
+inurl:signup  
+intitle:"403 Forbidden"  
+intitle:"Error"  
+intitle:"PHP Warning"  
+intitle:"Warning"  
+intitle:"Fatal error"  
+intext:"internal server error"  
+intitle:"Apache2 Ubuntu Default Page"  
+intitle:"It works!"  
+intitle:"Index of /"  
+inurl:"phpinfo.php"  
+filetype:sql  
+filetype:env  
+filetype:log  
+filetype:xml  
+filetype:json  
+filetype:conf  
+filetype:ini  
+filetype:yaml  
+filetype:bak  
+"DB_PASSWORD"  
+"DB_USERNAME"  
+"APP_KEY"  
+"MAIL_HOST"  
+"MAIL_PASSWORD"  
+inurl:/wp-content/plugins/litespeed-cache/
+inurl:/wp-content/plugins/really-simple-ssl/
+inurl:/wp-content/plugins/all-in-one-wp-migration/
+inurl:/wp-content/plugins/wpforms-lite/
+inurl:/wp-content/plugins/rank-math/
+inurl:/wp-content/plugins/popup-maker/
+inurl:/wp-content/plugins/essential-addons-for-elementor-lite/
+inurl:/wp-content/plugins/royal-elementor-addons/
+inurl:/wp-content/plugins/premium-addons-for-elementor/
+inurl:/wp-content/plugins/happy-elementor-addons/
+inurl:/wp-content/plugins/unlimited-elements-for-elementor/
+inurl:/wp-content/plugins/jet-elements/
+inurl:/wp-content/plugins/anywhere-elementor/
+inurl:/wp-content/plugins/header-footer-elementor/
+inurl:/wp-content/plugins/elementor-pro/
+inurl:/wp-content/plugins/advanced-custom-fields-pro/
+inurl:/wp-content/plugins/wp-rocket/
+inurl:/wp-content/plugins/gravity-forms-pdf-extended/
+inurl:/wp-content/plugins/learndash-sfwd-lms/
+inurl:/wp-content/plugins/tutor/
+inurl:/wp-content/plugins/lifter-lms/
+inurl:/wp-content/plugins/learnpress/
+inurl:/wp-content/plugins/masterstudy-lms-learning-management-system/
+inurl:/wp-content/plugins/wp-user-frontend/
+inurl:/wp-content/plugins/user-registration/
+inurl:/wp-content/plugins/profile-builder/
+inurl:/wp-content/plugins/buddypress/
+inurl:/wp-content/plugins/bbpress/
+inurl:/wp-content/plugins/peepso-core/
+inurl:/wp-content/plugins/ultimate-member/
+inurl:/wp-content/plugins/user-meta/
+inurl:/wp-content/plugins/wp-members/
+inurl:/wp-content/plugins/theme-my-login/
+intext:"log4j" ext:log
+intext:"${jndi:ldap://"
+intext:"${jndi:rmi://"
+intext:"${jndi:dns://"
+intext:"log4j-core"
+inurl:/solr/ intext:"Apache Solr"
+inurl:/elasticsearch/ intext:"elastic"
+inurl:/kafka/
+inurl:/spark/
+inurl:/hadoop/
+inurl:/flink/
+inurl:/storm/
+intext:"Apache Struts"
+intext:"Spring Boot"
+intext:"Apache Tomcat"
+intext:"JBoss"
+intext:"WebLogic"
+intext:"WebSphere"
+ext:jar "log4j"
+ext:war "log4j"
+inurl:/cgi-bin/
+inurl:/.htaccess
+inurl:/server-status
+inurl:/server-info
+intext:"Apache/2.4.49"
+intext:"Apache/2.4.50"
+intext:"nginx/1.18"
+intext:"nginx/1.19"
+intext:"nginx/1.20"
+inurl:/icons/
+inurl:/manual/
+inurl:/phpmyadmin/
+inurl:/phpMyAdmin/
+inurl:/pma/
+inurl:/mysql/
+inurl:/adminer/
+inurl:/wp-admin/install.php
+inurl:/install.php
+inurl:/setup.php
+inurl:/config.php
+inurl:/test.php
+inurl:/info.php
+inurl:/owa/
+inurl:/exchange/
+inurl:/ecp/
+inurl:/ews/
+inurl:/mapi/
+inurl:/rpc/
+inurl:/powershell/
+inurl:/autodiscover/
+inurl:/Microsoft-Server-ActiveSync/
+intext:"Outlook Web App"
+intext:"Exchange Server"
+intext:"Microsoft Exchange"
+inurl:/aspnet_client/
+inurl:/iisadmpwd/
+inurl:/_vti_bin/
+inurl:/_vti_pvt/
+inurl:/sharepoint/
+inurl:/_layouts/
+intext:"SharePoint"
+intext:"Microsoft Office 365"
+inurl:/ui/
+inurl:/vsphere/
+inurl:/vcenter/
+inurl:/esxi/
+inurl:/horizon/
+inurl:/view/
+intext:"VMware vCenter"
+intext:"VMware ESXi"
+intext:"VMware Horizon"
+intext:"VMware vSphere"
+inurl:/sdk/
+inurl:/mob/
+inurl:/folder/
+intext:"VMware Workstation"
+intext:"VMware Player"
+inurl:/rest/
+inurl:/api/vcenter/
+inurl:/websso/
+inurl:/idm/
+inurl:/sts/
+inurl:/citrix/
+inurl:/vpn/
+inurl:/netscaler/
+inurl:/xenapp/
+inurl:/xendesktop/
+inurl:/storefront/
+inurl:/director/
+intext:"Citrix Gateway"
+intext:"Citrix ADC"
+intext:"NetScaler"
+intext:"XenApp"
+intext:"XenDesktop"
+inurl:/rdweb/
+inurl:/rpc/
+inurl:/remote/
+inurl:/ts/
+inurl:/tsweb/
+inurl:/rdp/
+intext:"Remote Desktop"
+intext:"Terminal Services"
+inurl:/remote/login
+inurl:/remote/logincheck
+inurl:/remote/fgt_lang
+inurl:/api/v2/
+intext:"FortiGate"
+intext:"FortiOS"
+intext:"Fortinet"
+inurl:/fgtauth
+inurl:/remote/hostcheck
+inurl:/remote/fortisslvpn
+inurl:/remote/saml
+inurl:/remote/oauth
+inurl:/remote/radius
+inurl:/remote/ldap
+inurl:/remote/tacacs
+inurl:/remote/cert
+inurl:/remote/user
+inurl:/remote/group
+inurl:/remote/policy
+inurl:/drupal/
+inurl:/sites/default/
+inurl:/modules/
+inurl:/themes/
+inurl:/core/
+intext:"Drupal"
+inurl:/user/login
+inurl:/admin/
+inurl:/node/
+inurl:/?q=user
+inurl:/?q=admin
+inurl:/?q=node
+inurl:/update.php
+inurl:/install.php
+inurl:/cron.php
+inurl:/xmlrpc.php
+inurl:/authorize.php
+inurl:/rebuild.php
+ext:module
+ext:theme
+sinurl:/confluence/
+inurl:/wiki/
+inurl:/pages/
+inurl:/spaces/
+inurl:/display/
+intext:"Confluence"
+intext:"Atlassian"
+inurl:/login.action
+inurl:/dologin.action
+inurl:/admin/
+inurl:/setup/
+inurl:/json/
+inurl:/rest/api/
+inurl:/plugins/
+inurl:/download/
+inurl:/exportword
+inurl:/viewpage.action
+inurl:/createpage.action
+inurl:/editpage.action
+inurl:/orion/
+inurl:/solarwinds/
+inurl:/npm/
+inurl:/sam/
+inurl:/dpa/
+inurl:/serv-u/
+intext:"SolarWinds"
+intext:"Orion Platform"
+inurl:/netperfmon/
+inurl:/admin/
+inurl:/api/
+inurl:/swis/
+inurl:/core/
+inurl:/modules/
+inurl:/console/
+inurl:/reports/
+inurl:/alerts/
+inurl:/events/
+inurl:/topology/
+inurl:/tmui/
+inurl:/mgmt/
+inurl:/my.policy
+inurl:/tmui/login.jsp
+inurl:/tmui/Control/
+intext:"BIG-IP"
+intext:"F5 Networks"
+intext:"Configuration Utility"
+inurl:/Common/
+inurl:/partition/
+inurl:/iControl/
+inurl:/mgmt/tm/
+inurl:/mgmt/shared/
+inurl:/mgmt/cm/
+inurl:/xui/
+inurl:/hsqldb/
+inurl:/tmui/tmui/
+inurl:/public/
+inurl:/tmui/util/
+
+inurl:/dana-na/
+inurl:/dana/
+inurl:/pulse/
+inurl:/meeting/
+inurl:/dana-ws/
+intext:"Pulse Secure"
+intext:"Pulse Connect Secure"
+intext:"Juniper"
+inurl:/auth/
+inurl:/welcome.cgi
+inurl:/dana-cached/
+inurl:/dana-admin/
+inurl:/dana-app/
+inurl:/dana-sslvpn/
+inurl:/dana-tunnel/
+inurl:/dana-mobile/
+inurl:/dana-client/
+inurl:/dana-config/
+inurl:/dana-policy/
+inurl:/php/login.php
+inurl:/esp/
+inurl:/global-protect/
+inurl:/ssl-vpn/
+inurl:/unauth/
+intext:"Palo Alto"
+intext:"GlobalProtect"
+intext:"PAN-OS"
+inurl:/api/
+inurl:/restapi/
+inurl:/xmlapi/
+inurl:/keymgr/
+inurl:/certmgr/
+inurl:/sslmgr/
+inurl:/logrcvr/
+inurl:/reportmgr/
+inurl:/usermgr/
+inurl:/devicemgr/
+inurl:/panorama/
+inurl:/HNAP1/
+inurl:/cgi-bin/
+inurl:/level/15/
+inurl:/exec/
+intext:"Cisco"
+intext:"IOS"
+intext:"ASA"
+intext:"Nexus"
+intext:"Catalyst"
+inurl:/+CSCOE+/
+inurl:/+CSCOT+/
+inurl:/+webvpn+/
+inurl:/remote/
+inurl:/vpn/
+inurl:/sslvpn/
+inurl:/anyconnect/
+inurl:/webvpn/
+inurl:/+CSCOE+/logon.html
+inurl:/admin/
+inurl:/api/v1/
+inurl:/api/v2/
+inurl:/healthz
+inurl:/metrics
+inurl:/version
+inurl:/swagger-ui/
+inurl:/ui/
+port:8080
+port:8443
+port:6443
+port:10250
+port:10255
+port:2379
+port:2380
+intext:"etcd"
+intext:"kubelet"
+intext:"kube-proxy"
+intext:"kube-apiserver"
+intext:"kubernetes dashboard"
+inurl:/v2/
+inurl:/v2/_catalog
+inurl:/v2/*/manifests/
+inurl:/v2/*/blobs/
+port:2375
+port:2376
+port:5000
+intext:"Docker Registry"
+intext:"Harbor"
+intext:"Portus"
+intext:"Quay"
+inurl:/harbor/
+inurl:/portus/
+inurl:/quay/
+inurl:/registry/
+inurl:/distribution/
+inurl:/docker/
+inurl:/containers/
+inurl:/images/
+inurl:/jenkins/
+inurl:/job/
+inurl:/build/
+inurl:/console/
+inurl:/script/
+inurl:/scriptText/
+inurl:/manage/
+inurl:/configure/
+inurl:/systemInfo/
+inurl:/cli/
+inurl:/computer/
+inurl:/people/
+inurl:/asynchPeople/
+inurl:/securityRealm/
+inurl:/signup/
+inurl:/login/
+inurl:/logout/
+inurl:/whoAmI/
+intext:"Jenkins"
+inurl:/gitlab/
+inurl:/users/sign_in
+inurl:/admin/
+inurl:/api/v4/
+inurl:/help/
+inurl:/explore/
+inurl:/public/
+inurl:/snippets/
+inurl:/groups/
+inurl:/projects/
+inurl:/dashboard/
+inurl:/profile/
+inurl:/settings/
+inurl:/-/
+inurl:/uploads/
+inurl:/raw/
+inurl:/blob/
+intext:"GitLab"
+inurl:/grafana/
+inurl:/login/
+inurl:/api/
+inurl:/dashboard/
+inurl:/datasources/
+inurl:/plugins/
+inurl:/admin/
+inurl:/org/
+inurl:/profile/
+inurl:/alerting/
+inurl:/explore/
+inurl:/playlists/
+inurl:/snapshots/
+inurl:/library-panels/
+inurl:/correlations/
+inurl:/connections/
+intext:"Grafana"
+port:3000
+inurl:/_search
+inurl:/_cluster/
+inurl:/_nodes/
+inurl:/_cat/
+inurl:/_stats
+inurl:/_mapping
+inurl:/_settings
+inurl:/_aliases
+inurl:/_template
+inurl:/_snapshot
+inurl:/_tasks
+inurl:/_scripts
+port:9200
+port:9300
+intext:"elasticsearch"
+intext:"You Know, for Search"
+intext:"elastic"
+inurl:/_plugin/
+port:6379
+inurl:/redis/
+intext:"Redis"
+intext:"redis_version"
+intext:"redis_mode"
+intext:"redis_git_sha1"
+intext:"redis_git_dirty"
+intext:"redis_build_id"
+intext:"redis_build_date"
+intext:"used_memory"
+intext:"used_memory_human"
+intext:"used_memory_rss"
+intext:"used_memory_peak"
+intext:"connected_clients"
+intext:"blocked_clients"
+intext:"tracking_clients"
+intext:"clients_in_timeout_table"
+port:27017
+port:27018
+port:27019
+inurl:/mongo/
+inurl:/mongodb/
+intext:"MongoDB"
+intext:"mongo"
+intext:"db.version()"
+intext:"db.runCommand"
+intext:"db.stats()"
+intext:"db.serverStatus()"
+intext:"db.hostInfo()"
+intext:"show dbs"
+intext:"show collections"
+intext:"use admin"
+intext:"db.users.find()"
+intext:"db.getUsers()"
+intext:"rs.status()"
+port:11211
+inurl:/memcached/
+intext:"memcached"
+intext:"STAT version"
+intext:"STAT pid"
+intext:"STAT uptime"
+intext:"STAT time"
+intext:"STAT pointer_size"
+intext:"STAT rusage_user"
+intext:"STAT rusage_system"
+intext:"STAT curr_connections"
+intext:"STAT total_connections"
+intext:"STAT connection_structures"
+intext:"STAT reserved_fds"
+intext:"STAT cmd_get"
+intext:"STAT cmd_set"
+intext:"STAT cmd_flush"
+inurl:/splunk/
+inurl:/en-US/
+inurl:/servicesNS/
+inurl:/services/
+inurl:/data/
+inurl:/manager/
+inurl:/debug/
+port:8000
+port:8089
+port:9997
+intext:"Splunk"
+intext:"splunkd"
+intext:"Splunk Inc."
+inurl:/account/login
+inurl:/account/logout
+inurl:/app/
+inurl:/dj/
+inurl:/static/
+inurl:/nagios/
+inurl:/cgi-bin/nagios/
+inurl:/nagios3/
+inurl:/nagios4/
+inurl:/icinga/
+inurl:/centreon/
+inurl:/op5/
+inurl:/shinken/
+inurl:/naemon/
+intext:"Nagios"
+intext:"Icinga"
+intext:"Centreon"
+intext:"OP5"
+intext:"Shinken"
+intext:"Naemon"
+inurl:/status.cgi
+inurl:/config.cgi
+inurl:/cmd.cgi
+inurl:/zabbix/
+inurl:/zabbix.php
+inurl:/index.php
+inurl:/api_jsonrpc.php
+inurl:/chart.php
+inurl:/chart2.php
+inurl:/chart3.php
+inurl:/chart4.php
+inurl:/chart5.php
+inurl:/chart6.php
+inurl:/chart7.php
+inurl:/history.php
+inurl:/httpdetails.php
+inurl:/httpmon.php
+inurl:/image.php
+inurl:/imgstore.php
+intext:"Zabbix"
+port:10050
+inurl:/public/
+inurl:/api/
+inurl:/controls/
+inurl:/sensor.htm
+inurl:/devices.htm
+inurl:/groups.htm
+inurl:/probes.htm
+inurl:/reports.htm
+inurl:/maps.htm
+inurl:/libraries.htm
+inurl:/notifications.htm
+inurl:/schedules.htm
+inurl:/system.htm
+inurl:/setup.htm
+inurl:/logs.htm
+inurl:/tickets.htm
+intext:"PRTG"
+port:8080
+inurl:/cacti/
+inurl:/graph.php
+inurl:/graph_view.php
+inurl:/graph_image.php
+inurl:/rra.php
+inurl:/tree.php
+inurl:/index.php
+inurl:/about.php
+inurl:/logout.php
+inurl:/auth_login.php
+inurl:/auth_changepassword.php
+inurl:/utilities.php
+inurl:/settings.php
+inurl:/user_admin.php
+inurl:/templates_export.php
+inurl:/templates_import.php
+intext:"Cacti"
+intext:"RRDtool"
+inurl:/librenms/
+inurl:/login
+inurl:/logout
+inurl:/overview
+inurl:/devices
+inurl:/ports
+inurl:/health
+inurl:/graphs
+inurl:/wireless
+inurl:/routing
+inurl:/pseudowires
+inurl:/oxidized
+inurl:/inventory
+inurl:/eventlog
+inurl:/syslog
+inurl:/alertlog
+intext:"LibreNMS"
+intext:"Network Management"
+inurl:/observium/
+inurl:/login/
+inurl:/logout/
+inurl:/overview/
+inurl:/devices/
+inurl:/ports/
+inurl:/health/
+inurl:/graphs/
+inurl:/neighbours/
+inurl:/inventory/
+inurl:/eventlog/
+inurl:/syslog/
+inurl:/alertlog/
+inurl:/settings/
+inurl:/adduser/
+inurl:/deluser/
+intext:"Observium"
+intext:"Network Observability"
+inurl:/pandora_console/
+inurl:/pandora/
+inurl:/index.php?login=1
+inurl:/operation/
+inurl:/godmode/
+inurl:/reporting/
+inurl:/include/
+inurl:/images/
+inurl:/ajax.php
+inurl:/general/
+inurl:/enterprise/
+inurl:/extensions/
+inurl:/mobile/
+inurl:/api/
+inurl:/ws.php
+inurl:/logoff.php
+intext:"Pandora FMS"
+intext:"Pandora Console"
+inurl:/glpi/
+inurl:/index.php
+inurl:/front/
+inurl:/ajax/
+inurl:/inc/
+inurl:/install/
+inurl:/locales/
+inurl:/pics/
+inurl:/plugins/
+inurl:/scripts/
+inurl:/sound/
+inurl:/css/
+inurl:/js/
+inurl:/lib/
+inurl:/vendor/
+inurl:/files/
+intext:"GLPI"
+intext:"Gestionnaire Libre de Parc Informatique"
+inurl:/ocsreports/
+inurl:/ocs/
+inurl:/index.php
+inurl:/install.php
+inurl:/backend/
+inurl:/download/
+inurl:/files/
+inurl:/plugins/
+inurl:/require/
+inurl:/css/
+inurl:/js/
+inurl:/image/
+inurl:/languages/
+inurl:/extensions/
+inurl:/api/
+inurl:/ocsinventory/
+intext:"OCS Inventory"
+intext:"Open Computer and Software Inventory"
+inurl:/otrs/
+inurl:/index.pl
+inurl:/customer.pl
+inurl:/public.pl
+inurl:/installer.pl
+inurl:/migration.pl
+inurl:/nph-genericinterface.pl
+inurl:/bin/
+inurl:/Kernel/
+inurl:/Custom/
+inurl:/scripts/
+inurl:/var/
+inurl:/doc/
+inurl:/i18n/
+inurl:/js-cache/
+inurl:/css-cache/
+intext:"OTRS"
+intext:"Open Ticket Request System"
+inurl:/rt/
+inurl:/index.html
+inurl:/NoAuth/
+inurl:/REST/
+inurl:/Search/
+inurl:/Ticket/
+inurl:/User/
+inurl:/Admin/
+inurl:/Tools/
+inurl:/Prefs/
+inurl:/Approvals/
+inurl:/SelfService/
+inurl:/Mobile/
+inurl:/m/
+inurl:/static/
+inurl:/Helpers/
+intext:"Request Tracker"
+intext:"RT"
+inurl:/mantis/
+inurl:/mantisbt/
+inurl:/login_page.php
+inurl:/main_page.php
+inurl:/view_all_bug_page.php
+inurl:/bug_report_page.php
+inurl:/bug_update_page.php
+inurl:/manage_overview_page.php
+inurl:/admin/
+inurl:/api/
+inurl:/plugins/
+inurl:/css/
+inurl:/js/
+inurl:/images/
+inurl:/lang/
+inurl:/config/
+intext:"MantisBT"
+intext:"Mantis Bug Tracker"
+inurl:/bugzilla/
+inurl:/index.cgi
+inurl:/query.cgi
+inurl:/buglist.cgi
+inurl:/show_bug.cgi
+inurl:/enter_bug.cgi
+inurl:/editusers.cgi
+inurl:/admin.cgi
+inurl:/editparams.cgi
+inurl:/sanitycheck.cgi
+inurl:/checksetup.pl
+inurl:/contrib/
+inurl:/template/
+inurl:/data/
+inurl:/lib/
+inurl:/skins/
+intext:"Bugzilla"
+intext:"Bug Tracking System"
+inurl:/redmine/
+inurl:/login
+inurl:/logout
+inurl:/projects
+inurl:/issues
+inurl:/time_entries
+inurl:/gantt
+inurl:/calendar
+inurl:/news
+inurl:/documents
+inurl:/wiki
+inurl:/boards
+inurl:/files
+inurl:/repository
+inurl:/settings
+intext:"Redmine"
+intext:"Project Management"
+inurl:/trac/
+inurl:/login
+inurl:/logout
+inurl:/wiki
+inurl:/timeline
+inurl:/roadmap
+inurl:/browser
+inurl:/report
+inurl:/newticket
+inurl:/search
+inurl:/prefs
+inurl:/about
+inurl:/attachment
+inurl:/changeset
+inurl:/milestone
+intext:"Trac"
+intext:"Integrated SCM"
+inurl:/fossil/
+inurl:/timeline
+inurl:/tree
+inurl:/blob
+inurl:/ci
+inurl:/info
+inurl:/wiki
+inurl:/ticket
+inurl:/rptview
+inurl:/brlist
+inurl:/taglist
+inurl:/setup
+inurl:/login
+inurl:/logout
+inurl:/stat
+intext:"Fossil"
+intext:"Distributed Version Control"
+inurl:/hg/
+inurl:/mercurial/
+inurl:/summary
+inurl:/shortlog
+inurl:/log
+inurl:/graph
+inurl:/tags
+inurl:/bookmarks
+inurl:/branches
+inurl:/file
+inurl:/diff
+inurl:/comparison
+inurl:/annotate
+inurl:/help
+inurl:/static
+inurl:/.hg/
+intext:"Mercurial"
+intext:"hgweb"
+inurl:/svn/
+inurl:/subversion/
+inurl:/repos/
+inurl:/repository/
+inurl:/trunk/
+inurl:/branches/
+inurl:/tags/
+inurl:/.svn/
+inurl:/!svn/
+inurl:/svnserve/
+inurl:/viewvc/
+inurl:/websvn/
+inurl:/svnweb/
+inurl:/trac/
+inurl:/fisheye/
+inurl:/browse/
+intext:"Subversion"
+intext:"SVN"
+inurl:/cvs/
+inurl:/cvsroot/
+inurl:/viewcvs/
+inurl:/cvsweb/
+inurl:/cvsview/
+inurl:/chora/
+inurl:/bonsai/
+inurl:/lxr/
+inurl:/source/
+inurl:/browse/
+inurl:/repository/
+inurl:/repos/
+inurl:/CVSROOT/
+inurl:/Attic/
+inurl:/RCS/
+inurl:/,v
+intext:"CVS"
+intext:"Concurrent Versions System"
+inurl:/bzr/
+inurl:/bazaar/
+inurl:/.bzr/
+inurl:/loggerhead/
+inurl:/changes
+inurl:/revision
+inurl:/annotate
+inurl:/download
+inurl:/files
+inurl:/search
+inurl:/+filebug
+inurl:/+translate
+inurl:/+help
+inurl:/+faq
+inurl:/+code
+inurl:/+branch
+intext:"Bazaar"
+intext:"bzr"
+inurl:/darcs/
+inurl:/_darcs/
+inurl:/darcsweb/
+inurl:/darcs.cgi
+inurl:/browse
+inurl:/summary
+inurl:/shortlog
+inurl:/changelog
+inurl:/patches
+inurl:/annotate
+inurl:/filediff
+inurl:/patch
+inurl:/raw
+inurl:/rss
+inurl:/atom
+inurl:/help
+intext:"Darcs"
+intext:"Distributed Revision Control"
+inurl:/monotone/
+inurl:/mtn/
+inurl:/_MTN/
+inurl:/viewmtn/
+inurl:/browse
+inurl:/summary
+inurl:/changelog
+inurl:/manifest
+inurl:/revision
+inurl:/annotate
+inurl:/diff
+inurl:/tarball
+inurl:/rss
+inurl:/atom
+inurl:/help
+inurl:/about
+intext:"Monotone"
+intext:"mtn"
+inurl:/arch/
+inurl:/{arch}/
+inurl:/archzoom/
+inurl:/browse
+inurl:/summary
+inurl:/log
+inurl:/changes
+inurl:/patch
+inurl:/tree
+inurl:/file
+inurl:/diff
+inurl:/annotate
+inurl:/download
+inurl:/tarball
+inurl:/help
+inurl:/about
+intext:"GNU Arch"
+intext:"tla"
+inurl:/api/ai
+inurl:/ml/
+inurl:/model/
+inurl:/predict
+inurl:/inference
+inurl:/chatbot
+inurl:/openai
+inurl:/gpt
+inurl:/llm
+inurl:/neural
+inurl:/tensorflow
+inurl:/pytorch
+"API_KEY" "openai"
+"OPENAI_API_KEY"
+"anthropic" "api"
+"huggingface" "token"
+inurl:/wallet
+inurl:/crypto
+inurl:/blockchain
+inurl:/ethereum
+inurl:/bitcoin
+inurl:/web3
+inurl:/metamask
+inurl:/defi
+inurl:/nft
+"private key" "wallet"
+"mnemonic" "seed"
+"INFURA_PROJECT_ID"
+"ALCHEMY_API_KEY"
+ext:json "privateKey"
+"contract address"
+inurl:/.next/
+inurl:/_next/static/
+inurl:/nuxt/
+inurl:/.nuxt/
+inurl:/vite/
+inurl:/webpack/
+inurl:/.vite/
+inurl:/astro/
+inurl:/remix/
+inurl:/svelte/
+inurl:/.svelte-kit/
+inurl:/gatsby/
+inurl:/.gatsby/
+"NEXT_PUBLIC_" ext:js
+"VITE_" ext:js
+"REACT_APP_" ext:js
+"VUE_APP_" ext:js
+inurl:/.netlify/
+inurl:/.vercel/
+inurl:/lambda/
+inurl:/functions/
+inurl:/edge/
+inurl:/workers/
+inurl:/api/edge/
+inurl:/api/serverless/
+"AWS_ACCESS_KEY_ID"
+"AWS_SECRET_ACCESS_KEY"
+"VERCEL_TOKEN"
+"NETLIFY_AUTH_TOKEN"
+"CLOUDFLARE_API_TOKEN"
+"AZURE_CLIENT_SECRET"
+inurl:/graphql
+inurl:/graphiql
+inurl:/playground
+inurl:/altair
+inurl:/voyager
+intext:"Query:" intext:"Mutation:"
+intext:"introspection"
+inurl:/api/graphql/playground
+inurl:/graphql/console
+inurl:/api/graphql/voyager
+"__schema"
+"__type"
+"query IntrospectionQuery"
+inurl:/hasura
+inurl:/postgraphile
+inurl:/docker/
+inurl:/.docker/
+inurl:/kubernetes/
+inurl:/k8s/
+inurl:/helm/
+inurl:/rancher/
+inurl:/portainer/
+inurl:/registry/
+inurl:/harbor/
+ext:yaml "kind: Secret"
+ext:yml "apiVersion:"
+"DOCKER_HOST"
+"KUBECONFIG"
+"KUBE_TOKEN"
+"REGISTRY_AUTH"
+"FACEBOOK_APP_SECRET"
+"TWITTER_API_SECRET"
+"GOOGLE_CLIENT_SECRET"
+"GITHUB_CLIENT_SECRET"
+"DISCORD_BOT_TOKEN"
+"SLACK_BOT_TOKEN"
+"TELEGRAM_BOT_TOKEN"
+"LINKEDIN_CLIENT_SECRET"
+"INSTAGRAM_ACCESS_TOKEN"
+"YOUTUBE_API_KEY"
+"TWITCH_CLIENT_SECRET"
+"SPOTIFY_CLIENT_SECRET"
+"oauth_token"
+"refresh_token"
+"access_token"
+inurl:/redis/
+inurl:/mongodb/
+inurl:/elasticsearch/
+inurl:/kibana/
+inurl:/grafana/
+inurl:/prometheus/
+inurl:/influxdb/
+inurl:/cassandra/
+inurl:/couchdb/
+inurl:/neo4j/
+inurl:/memcached/
+port:6379
+port:27017
+port:9200
+"REDIS_URL"
+"MONGODB_URI"
+"ELASTICSEARCH_URL"
+
+inurl:/nuclei/
+inurl:/nmap/
+inurl:/burp/
+inurl:/zap/
+inurl:/metasploit/
+inurl:/nessus/
+inurl:/openvas/
+inurl:/acunetix/
+inurl:/qualys/
+inurl:/rapid7/
+inurl:/tenable/
+intext:"vulnerability scan"
+intext:"penetration test"
+intext:"security assessment"
+ext:xml "nmap"
+ext:json "nuclei"
+inurl:/cdn-cgi/
+inurl:/.well-known/
+inurl:/cache/
+inurl:/edge/
+inurl:/purge/
+inurl:/flush/
+inurl:/cloudflare/
+inurl:/fastly/
+inurl:/akamai/
+inurl:/cloudfront/
+inurl:/maxcdn/
+"X-Cache:"
+"X-Served-By:"
+"CF-Cache-Status:"
+"X-Fastly-Request-ID:"
+inurl:/mobile/
+inurl:/app/
+inurl:/ios/
+inurl:/android/
+inurl:/react-native/
+inurl:/flutter/
+inurl:/cordova/
+inurl:/phonegap/
+inurl:/xamarin/
+inurl:/ionic/
+"com.target." ext:apk
+"bundle identifier"
+"app store"
+"google play"
+"deep link"
+inurl:/analytics/
+inurl:/metrics/
+inurl:/monitoring/
+inurl:/datadog/
+inurl:/newrelic/
+inurl:/splunk/
+inurl:/elastic/
+inurl:/logstash/
+inurl:/fluentd/
+"DATADOG_API_KEY"
+"NEW_RELIC_LICENSE_KEY"
+"SPLUNK_TOKEN"
+"GOOGLE_ANALYTICS_ID"
+"MIXPANEL_TOKEN"
+"AMPLITUDE_API_KEY"
+
+inurl:/shop/
+inurl:/store/
+inurl:/cart/
+inurl:/checkout/
+inurl:/payment/
+inurl:/stripe/
+inurl:/paypal/
+inurl:/square/
+inurl:/braintree/
+inurl:/razorpay/
+"STRIPE_SECRET_KEY"
+"PAYPAL_CLIENT_SECRET"
+"SQUARE_ACCESS_TOKEN"
+"RAZORPAY_KEY_SECRET"
+"credit card"
+"card number"
+inurl:/websocket/
+inurl:/socket.io/
+inurl:/ws/
+inurl:/wss/
+inurl:/signalr/
+inurl:/pusher/
+inurl:/pubnub/
+inurl:/ably/
+inurl:/centrifugo/
+"PUSHER_APP_SECRET"
+"PUBNUB_SECRET_KEY"
+"ABLY_API_KEY"
+"websocket"
+"socket connection"
+inurl:/dev/
+inurl:/staging/
+inurl:/test/
+inurl:/beta/
+inurl:/alpha/
+"development mode"
+"staging environment"
+"test server"
