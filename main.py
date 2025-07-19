@@ -7,26 +7,24 @@ import threading
 class DorkLauncher:
     def __init__(self, root):
         self.root = root
-        self.root.title("DuckDuckGo Dork Launcher")
-        self.root.geometry("580x330")
-        self.root.configure(bg="#eaeff2")  # soft light gray background
+        self.root.title("Google Dork Launcher")
+        self.root.geometry("580x380")  # Increased height to fit new jump section
+        self.root.configure(bg="#eaeff2")
 
         self.dorks = []
         self.dorks_file = ""
         self.batch_size = 10
         self.current_index = 0
 
-        # Fonts and Colors
         self.font_title = ("Segoe UI", 14, "bold")
         self.font_regular = ("Segoe UI", 11)
-        self.color_primary = "#005bbb"     # Professional blue
-        self.color_secondary = "#ffffff"   # White
+        self.color_primary = "#005bbb"
+        self.color_secondary = "#ffffff"
         self.input_bg = "#ffffff"
         self.input_fg = "#000000"
         self.label_fg = "#333333"
 
-        # --- GUI Components ---
-        tk.Label(root, text="DuckDuckGo Dork Launcher", font=self.font_title,
+        tk.Label(root, text="Google Dork Launcher", font=self.font_title,
                  bg="#eaeff2", fg=self.color_primary).pack(pady=12)
 
         frm_target = tk.Frame(root, bg="#eaeff2")
@@ -57,6 +55,23 @@ class DorkLauncher:
                                      activebackground="#999999", activeforeground="#ffffff",
                                      width=20, relief=tk.FLAT, state=tk.DISABLED)
         self.next_button.pack(pady=5)
+
+        # New: Jump to batch section
+        frm_jump = tk.Frame(root, bg="#eaeff2")
+        frm_jump.pack(pady=5)
+
+        tk.Label(frm_jump, text="Jump to batch #:", font=self.font_regular,
+                 bg="#eaeff2", fg=self.label_fg).pack(side=tk.LEFT, padx=5)
+
+        self.batch_entry = tk.Entry(frm_jump, width=5, font=self.font_regular,
+                                    bg=self.input_bg, fg=self.input_fg, relief=tk.RIDGE, bd=2)
+        self.batch_entry.pack(side=tk.LEFT, padx=5)
+
+        self.jump_button = tk.Button(frm_jump, text="🔁 Jump", command=self.jump_to_batch,
+                                     font=self.font_regular, bg="#888888", fg="#ffffff",
+                                     activebackground="#666666", activeforeground="#ffffff",
+                                     relief=tk.FLAT)
+        self.jump_button.pack(side=tk.LEFT)
 
         self.status = tk.Label(root, text="", font=self.font_regular, bg="#eaeff2", fg="#444444")
         self.status.pack(pady=8)
@@ -96,11 +111,28 @@ class DorkLauncher:
             self.status.config(text=f"Opening batch {self.current_index // self.batch_size + 1}...")
             threading.Thread(target=self.open_batch).start()
 
+    def jump_to_batch(self):
+        try:
+            batch_num = int(self.batch_entry.get())
+            if batch_num < 1:
+                raise ValueError
+            index = (batch_num - 1) * self.batch_size
+            if index >= len(self.dorks):
+                messagebox.showwarning("Invalid Batch", "Batch number exceeds dorks count.")
+                return
+            self.current_index = index
+            self.status.config(text=f"Jumping to batch {batch_num}...")
+            self.start_button.config(state=tk.DISABLED)
+            self.next_button.config(state=tk.NORMAL, bg=self.color_primary, fg=self.color_secondary)
+            threading.Thread(target=self.open_batch).start()
+        except ValueError:
+            messagebox.showerror("Invalid Input", "Please enter a valid batch number.")
+
     def open_batch(self):
         batch = self.dorks[self.current_index:self.current_index + self.batch_size]
         for dork in batch:
             query = f"site:{self.target} {dork}".replace(" ", "+")
-            url = f"https://duckduckgo.com/?q={query}"
+            url = f"https://www.google.com/search?q={query}"
             webbrowser.open_new_tab(url)
             time.sleep(0.4)
         self.status.config(text=f"Batch {self.current_index // self.batch_size + 1} opened. Close tabs, then click 'Next Batch'.")
